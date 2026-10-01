@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['plastic bag', 'plastic bottle', 'plastic container', 'plastic cup', 'plastic straw', 'plastic utensil']
+
+roboflow:
+  workspace: ranjan-s
+  project: plastic-waste-management-6p8kw-qcufi
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ranjan-s/plastic-waste-management-6p8kw-qcufi/dataset/1
